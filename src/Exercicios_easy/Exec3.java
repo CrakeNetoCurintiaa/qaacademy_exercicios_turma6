@@ -5,21 +5,32 @@ package Exercicios_easy;
 import javax.swing.*;
 
 public class Exec3 {
-    public static void main(String[] args) {
-//        Declarar variável do tipo texto nome, sobrenome;
-        String nome, sobrenome, auxiliar;
-//       nome = Ler(“adriano”);
-        nome = JOptionPane.showInputDialog("Digite sua palavra aqui");
-//        sobrenome = Ler(“oliveira”);
-        sobrenome = JOptionPane.showInputDialog("Digite sua palavra aqui");
-//        Exibir: “O texto é:” + sobrenome + nome;
+
+    public String ExibirNomeSobrenome(String nome, String sobrenome) {
+        String auxiliar;
         auxiliar = nome;
         nome = sobrenome;
         sobrenome = auxiliar;
 
-        System.out.println("O texto é: "+nome +sobrenome);
+        return  nome + sobrenome;
+
+
     }
 }
+//    public static void main(String[] args) {
+////        Declarar variável do tipo texto nome, sobrenome;
+//        String nome, sobrenome, auxiliar;
+////       nome = Ler(“adriano”);
+//        nome = JOptionPane.showInputDialog("Digite sua palavra aqui");
+////        sobrenome = Ler(“oliveira”);
+//        sobrenome = JOptionPane.showInputDialog("Digite sua palavra aqui");
+////        Exibir: “O texto é:” + sobrenome + nome;
+//        auxiliar = nome;
+//        nome = sobrenome;
+//        sobrenome = auxiliar;
+
+//        System.out.println("O texto é: "+nome +sobrenome);
+
 
 ////        Declarar variável do tipo texto nome, sobrenome;
 ////        nome = Ler(“adriano”);
