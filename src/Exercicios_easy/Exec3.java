@@ -12,7 +12,7 @@ public class Exec3 {
         nome = sobrenome;
         sobrenome = auxiliar;
 
-        return  nome + sobrenome;
+        return  nome +" " + sobrenome;
 
 
     }

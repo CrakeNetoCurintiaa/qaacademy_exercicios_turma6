@@ -8,17 +8,17 @@ package Exercicios_easy;
 import javax.swing.*;
 
 public class Exec5 {
-    public String calcularNumeros(int num1, int num2, int num3) {
+    public int calcularNumeros(int num1, int num2, int num3) {
 
-        System.out.println("a soma é:"+ (num1+num2+num3));
-        System.out.println("a subtraçao é:"+ (num1-num2-num3));
-        System.out.println("a multiplicação é:"+(num1*num2*num3));
-        System.out.println("a média é:"+(num1+num2+num3)/3);
+    //    System.out.println("a soma é:" + (num1 + num2 + num3));
+        System.out.println("a subtraçao é:" + (num1 - num2 - num3));
+//        System.out.println("a multiplicação é:"+(num1*num2*num3));
+//        System.out.println("a média é:"+(num1+num2+num3)/3);
 
-            return (""+ num1 + num2 + num3);
+        return (num1 + num2 + num3);
 
-        }
     }
+}
 
 //    public static void main(String[] args) {
 ////        Declarar variável do tipo numérico: num1, num2, num3;

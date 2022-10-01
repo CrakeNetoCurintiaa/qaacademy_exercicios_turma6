@@ -1,9 +1,8 @@
 package main;
 
-import Exemplos.MetodosSemMain;
 import Exercicios_easy.*;
 
-public class Execução {
+public class Execucao {
     public static void main(String[] args) {
 //        MetodosSemMain Exercicios = new MetodosSemMain();
 //        System.out.println(Exercicios.multiplicarDoisNumeros(10,20));
