@@ -1,16 +1,18 @@
 package Exercicios_easy;
 
-import javax.swing.*;
+//import javax.swing.*;
 
 public class Exec10b {
-    public double calcularjurosComposto(double valorInv){
-        double taxaJuros =0.05;
-        int i =10;
-        taxaJuros = taxaJuros*i;
-        while (i <= 10);
-        i= i+1;
+    public String calcularjurosComposto(double valorInv){
+        double taxaJuros =0.05, valorJuros=0;
 
-        return valorInv * taxaJuros;
+        int i =1;
+        while (i <= 10){
+        valorJuros = ((valorInv + valorJuros )* taxaJuros + valorJuros);
+        i= i+1;}
+
+
+        return "valor de juros  "+  valorJuros + "\n" + "valor de investimento  " + valorInv + "\n" + "valor total  " + (valorInv+valorJuros);
 
     }
 }

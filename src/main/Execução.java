@@ -38,8 +38,13 @@ public class Execução {
 
 //        Exec10a exec10a =new Exec10a();
 //        System.out.println(exec10a.calcularJuros(5000));
+//
+//        Exec10b exec10b =new Exec10b();
+//        System.out.println(exec10b.calcularjurosComposto(1000));
 
-        Exec10b exec10b=new Exec10b();
-        System.out.println(exec10b.calcularjurosComposto(5000));
+        Exec11 exec11 = new Exec11();
+        System.out.println(exec11.somarmais2Cemvezes(50));
+
+
     }
 }

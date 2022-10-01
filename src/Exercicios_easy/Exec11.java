@@ -3,16 +3,25 @@ package Exercicios_easy;
 import javax.swing.*;
 
 public class Exec11 {
-    public static void main(String[] args) {
-        int num, i = 1;
-        num = Integer.parseInt(JOptionPane.showInputDialog("digite o num"));
-        while (i <= 100) {System.out.println("A soma é:" + num);
-            num = (num + 2);
-            i = i + 1;
+    public String somarmais2Cemvezes (int num ){
+        int i=1;
+        while (i<=100){
+            num =num +2;
+            i++;
         }
-
+        return  "a soma é " + num;
     }
 }
+//    public static void main(String[] args) {
+//        int num, i = 1;
+//        num = Integer.parseInt(JOptionPane.showInputDialog("digite o num"));
+//        while (i <= 100) {System.out.println("A soma é:" + num);
+//            num = (num + 2);
+//            i = i + 1;
+//        }
+//
+//    }
+//}
 
 //    Declarar variáveis do tipo numérico num, i=1;
 //        num = Ler(6);
