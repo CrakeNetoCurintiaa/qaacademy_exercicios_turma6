@@ -3,19 +3,27 @@ package Exercicios_easy;
 import javax.swing.*;
 
 public class Exec10a {
-    public static void main(String[] args) {
-       double valorInvestimento, taxaJuros=0.05, valorJuros, valorTotal;
-       valorInvestimento= Integer.parseInt(JOptionPane.showInputDialog("digite um numero"));
-       taxaJuros=0.05*10;
-       valorJuros= valorInvestimento * taxaJuros;
-       valorTotal = valorJuros+valorInvestimento;
-
-        System.out.println("Você investiu"+ " " +valorInvestimento);
-        System.out.println("Rendeu" + " " +valorJuros + "de Juros");
-        System.out.println("O Valor total é " +valorTotal );
-
+    public double calcularJuros(double valorInv){
+        double taxaJuros =0.05;
+        int i =10;
+        taxaJuros = taxaJuros*i;
+        i++;
+        return valorInv * taxaJuros;
     }
 }
+//    public static void main(String[] args) {
+//       double valorInvestimento, taxaJuros=0.05, valorJuros, valorTotal;
+//       valorInvestimento= Integer.parseInt(JOptionPane.showInputDialog("digite um numero"));
+//       taxaJuros=0.05*10;
+//       valorJuros= valorInvestimento * taxaJuros;
+//       valorTotal = valorJuros+valorInvestimento;
+//
+//        System.out.println("Você investiu"+ " " +valorInvestimento);
+//        System.out.println("Rendeu" + " " +valorJuros + "de Juros");
+//        System.out.println("O Valor total é " +valorTotal );
+//
+//    }
+//}
 
 //    Declarar Variavel do tipo numerica: valorInvestimento, taxaJuros = 0.05,
 //        valorJuros, valorTotal;
